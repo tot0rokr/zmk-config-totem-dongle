@@ -1,0 +1,321 @@
+layout: {zmk_keyboard: totem}
+layers:
+  BL:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: LCTRL}
+  - {t: S, h: LEFT SHIFT}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT WIN}
+  - G
+  - H
+  - {t: J, h: LEFT WIN}
+  - {t: K, h: LEFT ALT}
+  - {t: L, h: LEFT SHIFT}
+  - {t: ;, h: LCTRL}
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''''
+  - {t: SPACE, h: LHL}
+  - {t: SPACE, h: LEFT SHIFT}
+  - {t: TAB, h: LTL}
+  - {t: RALT, h: RTL}
+  - {t: SPACE, h: RIGHT SHIFT}
+  - {t: SPACE, h: RHL}
+  LHL:
+  - Ctl+Alt+Z
+  - Alt+Ctl+X
+  - Alt+Ctl+A
+  - Alt+Ctl+S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+UP
+  - Gui+DOWN
+  - '&win_left'
+  - '&win_right'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+Y
+  - LEFT
+  - UP
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  DBL:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  RHL:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - INS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - CAPS
+  - HOME
+  - PG DN
+  - PG UP
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  LTL:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '['
+  - ']'
+  - '{'
+  - '}'
+  - {t: (, h: LEFT SHIFT}
+  - {t: ), h: LEFT SHIFT}
+  - _
+  - '-'
+  - +
+  - '|'
+  - ''
+  - ''
+  - ''
+  - '`'
+  - '~'
+  - ''''
+  - '"'
+  - '='
+  - ','
+  - .
+  - \
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  RTL:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PSCRN
+  - SLCK
+  - PAUSE BREAK
+  - ''
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - ''
+  - F13
+  - F14
+  - F15
+  - F16
+  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - ''
+  - ''
+  - F5
+  - F6
+  - F7
+  - F8
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  FUNCL: ['', '', '', '', '', F15, F9, F10, F11, F12, '', '', '', '', '', F14, F5, F6, F7, F8, '', '', '', '', '', '', F13, F1, F2, F3, F4, F16, '', '', '', LCTRL,
+    LEFT SHIFT, '']
+  DEVL:
+  - ''
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
+  - PREV
+  - NEXT
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
+  - PLAY PAUSE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  LCL: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+  RCL: [Gui+1, Gui+2, Gui+3, Gui+4, Gui+5, '', '', '', '', '', Gui+6, Gui+7, Gui+8, Gui+9, Gui+0, '', '', '', '', '', '', Ctl+Gui+Sft+`, Gui+Ctl+`, Gui+Sft+`, Gui+`,
+    '', '', '', '', '', '', '', LEFT ALT, LSHIFT, LCTRL, '', '', '']
+combos:
+- p: [16, 17]
+  k: BACKSPACE
+  l: [BL, LTL, RTL]
+- p: [16, 18]
+  k: ENTER
+  l: [BL, LTL, RTL]
+- p: [13, 12]
+  k: BACKSPACE
+  l: [BL, RTL, LTL]
+- p: [13, 11]
+  k: ENTER
+  l: [BL, RTL, LTL]
+- p: [2, 1]
+  k: ESC
+  l: [BL, RTL]
+- p: [27, 28]
+  k: DEL
+  l: [BL, LTL, RTL]
+- p: [24, 23]
+  k: DEL
+  l: [BL, RTL, LTL]
+- p: [2, 1]
+  k: Gui+E
+  l: [LHL]
+- p: [3, 2]
+  k: Gui+R
+  l: [LHL]
+- p: [3, 4]
+  k: Gui+Sft+T
+  l: [LHL]
+- p: [10, 11]
+  k: Gui+Sft+S
+  l: [LHL]
+- p: [24, 23]
+  k: Gui+V
+  l: [LHL]
+- p: [35, 36, 37]
+  k: DEVL
+- p: [35, 37]
+  k: '&switch_tasks_layer'
