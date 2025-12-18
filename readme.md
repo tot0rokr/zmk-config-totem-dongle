@@ -4,6 +4,12 @@
   <img alt="TOTEM logo font" src="/docs/images/TOTEM_logo_bright.svg">
 </picture>
 
+
+# Current Keymap
+
+<img src="keymap-drawer/totem.svg" >
+
+
 # ZMK CONFIG FOR THE TOTEM SPLIT KEYBOARD
 
 [Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
