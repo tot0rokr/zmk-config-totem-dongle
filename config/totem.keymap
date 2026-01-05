@@ -253,10 +253,10 @@
 
         LHL {
             bindings = <
-           &kp LC(LA(Z))  &kp LA(LC(X))  &kp LA(LC(A))  &kp LA(LC(S))  &trans    &trans  &trans   &trans   &trans  &trans
-           &kp LG(DOWN)   &kp LG(UP)     &win_left      &win_right     &trans    &trans  &kp DEL  &kp DEL  &trans  &trans
-&kp LC(Y)  &kp LEFT       &kp UP         &kp DOWN       &kp RIGHT      &trans    &trans  &trans   &trans   &trans  &trans  &trans
-                                         &trans         &trans         &trans    &trans  &trans   &trans
+           &kp LC(LA(Z))  &kp LA(LC(X))  &kp LA(LC(A))  &kp LA(LC(S))  &trans    &trans  &trans         &trans         &trans  &trans
+           &kp LG(DOWN)   &kp LG(UP)     &win_left      &win_right     &trans    &trans  &kp BACKSPACE  &kp BACKSPACE  &trans  &trans
+&kp LC(Y)  &kp LEFT       &kp UP         &kp DOWN       &kp RIGHT      &trans    &trans  &kp DEL        &kp DEL        &trans  &trans  &trans
+                                         &trans         &trans         &trans    &trans  &trans         &trans
             >;
 
             label = "left";
@@ -275,10 +275,10 @@
 
         RHL {
             bindings = <
-        &trans  &trans  &trans   &trans   &trans    &kp INS   &trans    &trans     &trans     &trans
-        &trans  &trans  &kp DEL  &kp DEL  &trans    &kp CAPS  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END
-&trans  &trans  &trans  &trans   &trans   &trans    &kp RALT  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
-                        &trans   &trans   &trans    &trans    &trans    &trans
+        &trans  &trans  &trans         &trans         &trans    &kp INS   &trans    &trans     &trans     &trans
+        &trans  &trans  &kp BACKSPACE  &kp BACKSPACE  &trans    &kp CAPS  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END
+&trans  &trans  &trans  &kp DEL        &kp DEL        &trans    &kp RALT  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
+                        &trans         &trans         &trans    &trans    &trans    &trans
             >;
 
             label = "right";
