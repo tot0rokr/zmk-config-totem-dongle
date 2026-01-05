@@ -56,8 +56,8 @@ layers:
   - '&win_right'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
-  - DEL
+  - BACKSPACE
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Y
@@ -67,8 +67,8 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,8 +130,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
-  - DEL
+  - BACKSPACE
+  - BACKSPACE
   - {t: ▽, type: trans}
   - CAPS
   - HOME
@@ -141,8 +141,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
+  - DEL
   - {t: ▽, type: trans}
   - RALT
   - LEFT
