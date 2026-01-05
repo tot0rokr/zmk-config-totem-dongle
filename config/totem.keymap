@@ -349,8 +349,8 @@
         BSL {
             bindings = <
        &none  &none  &none  &none  &none    &none  &none  &none          &none          &none
-       &none  &none  &none  &none  &none    &none  &none  &none          &kp BACKSPACE  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &kp BACKSPACE  &kp DEL        &none  &none
+       &none  &none  &none  &none  &none    &none  &none  &none          &kp BACKSPACE  &kp DEL
+&none  &none  &none  &none  &none  &none    &none  &none  &kp BACKSPACE  &kp DEL        &none    &none
                      &none  &none  &none    &none  &none  &none
             >;
 
