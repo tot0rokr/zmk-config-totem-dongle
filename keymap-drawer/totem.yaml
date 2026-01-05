@@ -56,8 +56,8 @@ layers:
   - '&win_right'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Y
@@ -130,8 +130,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
+  - DEL
   - {t: ▽, type: trans}
   - CAPS
   - HOME
